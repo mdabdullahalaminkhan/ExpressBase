@@ -1,6 +1,6 @@
-# WebsiteName-Backend  
+# WebsiteName-Backend (Project Name)
 
-This project is the backend setup for the `WebsiteName` application. It is built with Node.js and Express and includes essential tools and libraries for a secure and scalable backend.  
+This project is the backend setup for the `Express` application. It includes essential tools and libraries for a secure and scalable backend.  
 
 ---
 
@@ -15,7 +15,7 @@ git clone <repository-url>
 ```  
 
 ### 2. Update Project Name  
-Rename the project folder to `websiteName-backend`.  
+Rename the project folder to `yourWebsiteName-backend`.  
 
 ### 3. Initialize Node.js Project  
 Run the following command to create a `package.json` file:  
