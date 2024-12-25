@@ -1,4 +1,4 @@
-# WebsiteName Backend  
+# WebsiteName-Backend  
 
 This project is the backend setup for the `WebsiteName` application. It is built with Node.js and Express and includes essential tools and libraries for a secure and scalable backend.  
 
