@@ -11,7 +11,7 @@ Follow these steps to set up the project:
 ### 1. Download the Project  
 Clone the project repository from GitHub:  
 ```bash  
-git clone <repository-url>  
+git clone https://github.com/mdabdullahalaminkhan/ExpressBase.git  
 ```  
 
 ### 2. Update Project Name  
