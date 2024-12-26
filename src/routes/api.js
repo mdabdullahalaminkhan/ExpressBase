@@ -1,6 +1,6 @@
 const express =require('express');
 const UsersController=require("../controllers/UsersController");
-const AuthVerifyMiddleware=require("../middleware/AuthVerifyMiddleware");
+const AuthVerifyMiddleware=require("../middlewares/AuthVerifyMiddleware");
 
 
 const router =express.Router();
