@@ -15,7 +15,7 @@ git clone https://github.com/mdabdullahalaminkhan/ExpressBase.git
 ```  
 
 ### 2. Update Project Name  
-Rename the project folder to `yourWebsiteName-backend`. Delete follwing files: package-lock.json, package.json, LICENSE, README.md .
+Rename the project folder to `yourWebsiteName-backend`. Delete following files: package-lock.json, package.json, LICENSE, README.md .
 
 ### 3. Initialize Node.js Project  
 Run the following command to create a `package.json` file:  
