@@ -32,7 +32,14 @@ npm install express mongoose dotenv multer cookie-parser bcrypt jsonwebtoken cor
 For development purposes, install `nodemon`:  
 ```bash  
 npm install --save-dev nodemon  
-```  
+```
+## Required Packages: 
+``` Root package: express
+Middleware packages (security + other): cors, express-mongo-sanitize, xss-clean, helmet, hpp, express-rate-limit, body-parser, multer, cookie-parser
+Globally applied packages: ejs, dotenv, mongoose, nodemon, mysql2
+Helper packages: bcrypt, jsonwebtoken, validator , nodemailer
+Local modules: userRoutes.js, app.js, other custom modules
+```
 
 ### 5. Clean Up the Project  
 - Delete unnecessary files, folders, modules, and sample code.  
