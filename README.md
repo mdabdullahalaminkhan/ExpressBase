@@ -41,6 +41,11 @@ Globally applied packages: ejs, dotenv, mongoose, nodemon, mysql2
 Helper packages: bcrypt, jsonwebtoken, validator , nodemailer
 Local modules: userRoutes.js, app.js, other custom modules
 ```
+##### Some Node Built-in Modules May Required:
+```
+https (for external http request),
+fs ( to manipulate our local computer’s file.)
+```
 
 ### 5. Clean Up the Project  
 - Delete unnecessary files, folders, modules, and sample code.  
