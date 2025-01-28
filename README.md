@@ -26,8 +26,8 @@ npm init -y
 ### 4. Install Required Packages  
 Install the necessary dependencies:  
 ```bash  
-npm install express mongoose dotenv multer cookie-parser bcrypt jsonwebtoken cors express-mongo-sanitize express-rate-limit helmet hpp validator xss-clean  
-```  
+npm install express mongoose dotenv multer cookie-parser bcrypt jsonwebtoken nodemailer cors express-mongo-sanitize express-rate-limit helmet hpp validator xss-clean --save-dev nodemon
+```  // except ejs , body-parser, and mysql2.
 
 For development purposes, install `nodemon`:  
 ```bash  
