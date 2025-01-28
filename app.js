@@ -10,7 +10,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
 const cors = require('cors');
-//const multer = require('multer');
+const multer = require('multer');
 const cookieParser = require('cookie-parser');
 
 // Global packages import.
@@ -42,7 +42,7 @@ app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 3000 }));
 // Implement others middleware packages to limit the data and store the data.
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true}));
-//app.use(multer());
+app.use(multer());
 app.use(cookieParser());
 
 // Implement globally applied packages and make a server connection
@@ -54,7 +54,7 @@ dotenv.config();
 //     console.log(error);
 // });
 
-// Implement 3rd party modules as routing middleware
+// Implement routes
 
 app.get('/homie', (req, res)=>{
     res.send("Bismillahir Rahmaanir Raheem")
