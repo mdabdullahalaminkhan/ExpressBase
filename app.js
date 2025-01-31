@@ -19,9 +19,7 @@ const router = require('./src/routes/api');
     // const jsonwebtoken = require('jsonwebtoken');
     // const validator = require('validator');
 
-
 //********** PACKAGES AND MODULE IMPLEMENTATION **********
-
 
 // Implement root package
 const app = express();
@@ -56,7 +54,6 @@ app.use("/api/v1", router);
 app.use("*", (req, res) => {
     res.status(404).json({ status: "fail", data: "Not Found" });
 });
-
 
 // Exporting Express Functionality to index.js file
 module.exports = app;
