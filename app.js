@@ -35,6 +35,8 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true}));
 app.use(multer());
 app.use(cookieParser());
+app.use(express.static("static")); //css, js, images will work automatically.
+app.set("view engine", "ejs");
 // Implement globally applied packages.
 dotenv.config();
 let url = process.env.DATABASE_CONNECTION_STRING;
